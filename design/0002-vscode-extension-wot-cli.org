@@ -1,4 +1,4 @@
-#+TITLE: Milestone 1: 
+#+TITLE: VSCode Extension and wot CLI
 #+AUTHOR: Pedram Hadjian
 
 * Goal

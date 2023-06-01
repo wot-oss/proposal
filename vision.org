@@ -1,0 +1,52 @@
+#+TITLE: The Future of the ediTDor
+#+AUTHOR: Pedram Hadjian
+
+* Vision
+
+The Web of Things enables us to represent operational digital twins in an interoperable way. The main problem for IoT developers is the access to and understanding of data. Data in the context of IoT can broadly be split into two different categories:
+
+1. Timeseries Data: data coming from sensors, oftentimes called signals, runtime data, samples or others
+
+2. Contextual Data: this type of data answers questions about types of devices, interpretation of timeseries values, topology of assets and locations, taxonomies and more. Sometimes this type of data is called the semantics.
+
+We do not have a consistent way to work with these kinds of data. While normal software developers happily whip out VSCode, IntelliJ, emacs or vim, install a language server and make use of a myriad of libraries to get things done, IoT developers struggle to even access and understand data, let alone deliver value on top of it.
+
+In this open source project, we set out to change this. The vision is to bridge the gap between the two scenarios. We will focus on the developer experience and if we succeed, an IoT developer will be able to create or better just fetch device twins, model the context, write code and deploy to production.
+
+The vision is grand, but we need to start small. At Siemens we published the open source [[https://github.com/eclipse/editdor][ediTDor]] project, which helps to write and syntactically validate TMs/TDs. We will pick this up and drive it towards an awesome Digital Twin development environment.
+
+* Target Audience
+
+/IoT Developer/ is a very abstract role and for many an over-simplification. There are developers who create protocol driver code, experts who are knowledgeable about a domain, ontologists, application developers, system integrators etc.
+
+In a large corporation, these roles might be well organized and fulfilled by different people. However, I was more often than not also part of a team of 2-3 normal software developers that were responsible to go to a customer site, access devices, build up the infrastructure and write the application.
+
+Oftentimes we received input from the roles mentioned above and we used Thing Descriptions to formalize the gathered information in a machine-readable format.
+
+My suggestion is to target this full-stack IoT developer at first, as it feels less overwhelming. I also feel that expanding out to the different roles in a later stage will still be possible. Your comments are welcome.
+
+* Developer Experience - Discovering the ediTDor
+
+To get started, the following narrative describes how an IoT developer might discover our project and try it out without much setup. Technical details are glossed over. It's about the big picture:
+
+An IoT developer will discover our project via different channels like the eclipse umbrella, talks at conferences, blogs etc. The message must be consistent and exciting: a great experience for IoT developers on top of familiar and standardized technologies. 
+
+The project web site states the pitch again and offers a VSCode extension as well as sample projects accompanied by tutorials. Ideally there is one tutorial for each of the different industries, e.g. [[https://github.com/bbartling/open-fdd][Ashrae FDD rules]] for buildings, [[https://www.kaggle.com/c/bosch-production-line-performance][Production Line Performance]] for manufacturing, [[https://www.kaggle.com/c/bosch-production-line-performance][Peak Shaving]] for energy etc.
+
+Once cloned, the developer examines the contents of the repository, which contains a couple of directories with names that hint at the concept. Names like "thing_models", "thing_descriptions", "protocol_bindings", "timeseries", "src" etc. Further examining the files within those directories should also be self-explanatory. When opening a file, a rendered version might be displayed next to the file, e.g. a TD with a CSV protocol binding to a timeseries might render that timeseries below a property.
+
+Impatient as developers are, they should be able to gloss over the source code and execute it. The program will output some meaningful log.
+
+Excited about this way of working they will start reading the tutorial, which explains how to add a device to the project and re-execute the program to see their addition being integrated.
+
+This step should also avoid big runtime setups, so we should prepare the timeseries of the new device in a simulator and expose them via the field level protocol. The developer will learn how to capture those time series in a CSV and exchange the field-level protocol bindings with the appropriate CSV ones.
+
+Satisfied with the results, the developer wants to take it to the next level. This might be one of the topics listed below, which we can turn into narratives once we proceed.
+
+- Create higher level things like rooms or production lines
+- Integrate this whole experience with IoT platforms like Shifu, plgd or Azure
+- Integrate their ontology to guide TM/TD developers with validation
+- Provide a way to share and discover TMs in a public or private catalog
+- ...
+
+

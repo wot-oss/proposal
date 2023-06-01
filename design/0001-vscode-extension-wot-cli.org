@@ -1,0 +1,39 @@
+#+TITLE: Milestone 1: 
+#+AUTHOR: Pedram Hadjian
+
+* Goal
+
+The following is a suggestion of a first milestone to be discussed in the community. The ediTDor project currently helps in the creation and validation of Thing Models and Thing Descriptions. It uses JSON Schema to validate the content and adds a visualization of the TM/TD as a rendered interactive HTML site.
+
+There have been many requests to turn this project into a VSCode extension and make the rendering available separately like swagger-ui, to be rendered in code forges like gitlab or github. Also the functionality of validation should be usable in CI/CD pipelines, so it should be available as a separate library/cli.
+
+In addition, while developers can create syntactically valid TMs/TDs, there is no way of knowing, if we can actually use these descriptions to communicate with the modeled device, let alone automatically validate the communication in a CI/CD pipeline.
+
+* Proposal
+
+In short: start to create a VSCode extension, which uses JSON Schemas to validate TMs/TDs. Also provide a cli and a library, which provides the same JSON Schema validation for use in a CI/CD pipeline. In addition the cli should integrate in a simple way with a protocol driver to test communication with a device. To "prove" successful communication, the recorded timeseries should be persistable to a file to be committed to a repository, where this communication can be validated.
+
+I see the following tasks to achieve the above:
+
+- Create a VSCode extension that syntactically validates TMs/TDs
+- Context extensions of JSON-LD may be used to map to JSON Schemas
+- Provide wot-ui to create HTML pages for TMs/TDs
+- Introduce a wot-cli
+- wot-cli can validate TMs/TDs against JSON Schemas
+- wot-cli can generate stubs for a protocol driver to communicate with it
+- wot-cli can be used to communicate with an implementation of those stubs
+- wot-cli can observe properties and events and record them in timeseries
+- wot-cli can generate appropriate CSV protocol bindings
+- wot-cli can add protocol bindings to TMs to exchange field level bindings with CSV ones
+
+As a bonus step, it would be nice to also integrate tcddump/wireshark to examine what is generated on-wire by the protocol driver and display it in VSCode for debugging.
+
+* Next Steps
+
+- Ask questions, if the proposal is unclear
+- Do you have a better suggestion for a starting-point?
+- Is there something that seems not doable conceptually?
+- Work with the community towards agreement
+- Break-down tasks and start developing
+
+As the discussion on github proceeds, I will update the document until we reach consensus.

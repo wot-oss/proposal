@@ -25,28 +25,8 @@ Oftentimes we received input from the roles mentioned above and we used Thing De
 
 My suggestion is to target this full-stack IoT developer at first, as it feels less overwhelming. I also feel that expanding out to the different roles in a later stage will still be possible. Your comments are welcome.
 
-* Developer Experience - Discovering the ediTDor
+* High Level Workflow
 
-To get started, the following narrative describes how an IoT developer might discover our project and try it out without much setup. Technical details are glossed over. It's about the big picture:
+The diagram below depicts a high-level workflow for working with Thing Models/Thing Descriptions. This will help us to map existing components into the picture and identify gaps, which need to be filled.
 
-An IoT developer will discover our project via different channels like the eclipse umbrella, talks at conferences, blogs etc. The message must be consistent and exciting: a great experience for IoT developers on top of familiar and standardized technologies. 
-
-The project web site states the pitch again and offers a VSCode extension as well as sample projects accompanied by tutorials. Ideally there is one tutorial for each of the different industries, e.g. [[https://github.com/bbartling/open-fdd][Ashrae FDD rules]] for buildings, [[https://www.kaggle.com/c/bosch-production-line-performance][Production Line Performance]] for manufacturing, [[https://www.kaggle.com/c/bosch-production-line-performance][Peak Shaving]] for energy etc.
-
-Once cloned, the developer examines the contents of the repository, which contains a couple of directories with names that hint at the concept. Names like "thing_models", "thing_descriptions", "protocol_bindings", "timeseries", "src" etc. Further examining the files within those directories should also be self-explanatory. When opening a file, a rendered version might be displayed next to the file, e.g. a TD with a CSV protocol binding to a timeseries might render that timeseries below a property.
-
-Impatient as developers are, they should be able to gloss over the source code and execute it. The program will output some meaningful log.
-
-Excited about this way of working they will start reading the tutorial, which explains how to add a device to the project and re-execute the program to see their addition being integrated.
-
-This step should also avoid big runtime setups, so we should prepare the timeseries of the new device in a simulator and expose them via the field level protocol. The developer will learn how to capture those time series in a CSV and exchange the field-level protocol bindings with the appropriate CSV ones.
-
-Satisfied with the results, the developer wants to take it to the next level. This might be one of the topics listed below, which we can turn into narratives once we proceed.
-
-- Create higher level things like rooms or production lines
-- Integrate this whole experience with IoT platforms like Shifu, plgd or Azure
-- Integrate their ontology to guide TM/TD developers with validation
-- Provide a way to share and discover TMs in a public or private catalog
-- ...
-
-
+[[media/wot-workflow.drawio.svg]]

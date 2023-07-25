@@ -30,3 +30,10 @@ My suggestion is to target this full-stack IoT developer at first, as it feels l
 The diagram below depicts a high-level workflow for working with Thing Models/Thing Descriptions. This will help us to map existing components into the picture and identify gaps, which need to be filled.
 
 [[media/wot-workflow.drawio.svg]]
+
+* Scenarios
+** Help with WoT integration for Connectivity Solutions
+** Collect TMs in a Catalog
+** Enhance testing of TDs with Devices
+** Generate TMs from an existing Database/File Format
+** Validate TMs

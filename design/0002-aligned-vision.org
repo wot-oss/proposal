@@ -1,4 +1,4 @@
-#+TITLE: The Future of the ediTDor
+#+TITLE: Web of Things OSS Tools
 #+AUTHOR: Pedram Hadjian
 
 * Vision
@@ -7,23 +7,23 @@ The Web of Things enables us to represent operational digital twins in an intero
 
 1. Timeseries Data: data coming from sensors, oftentimes called signals, runtime data, samples or others
 
-2. Contextual Data: this type of data answers questions about types of devices, interpretation of timeseries values, topology of assets and locations, taxonomies and more. Sometimes this type of data is called the semantics.
+2. Contextual Data: this type of data answers questions about types of devices, interpretation of timeseries values, topology of assets and locations, taxonomies and more. Sometimes this type of data is called the semantics or metadata.
 
-We do not have a consistent way to work with these kinds of data. While normal software developers happily whip out VSCode, IntelliJ, emacs or vim, install a language server and make use of a myriad of libraries to get things done, IoT developers struggle to even access and understand data, let alone deliver value on top of it.
+We do not have a consistent way to work with these kinds of data. While normal application developers happily whip out VSCode, IntelliJ, emacs or vim, install a language server and make use of a myriad of libraries to get things done, IoT developers struggle to even access and understand data, let alone deliver value on top of it.
 
 In this open source project, we set out to change this. The vision is to bridge the gap between the two scenarios. We will focus on the developer experience and if we succeed, an IoT developer will be able to create or better just fetch device twins, model the context, write code and deploy to production.
 
-The vision is grand, but we need to start small. At Siemens we published the open source [[https://github.com/eclipse/editdor][ediTDor]] project, which helps to write and syntactically validate TMs/TDs. We will pick this up and drive it towards an awesome Digital Twin development environment.
+The vision is grand, but we need to start small. The open source [[https://github.com/eclipse/editdor][ediTDor]] project, published at the Eclipse Foundation, helps to write and syntactically validate TMs/TDs. We will pick this up and drive it towards an fully-featured Digital Twin development environment.
 
 * Target Audience
 
-/IoT Developer/ is a very abstract role and for many an over-simplification. There are developers who create protocol driver code, experts who are knowledgeable about a domain, ontologists, application developers, system integrators etc.
+/IoT Developer/ is a very abstract role and for many an over-simplification. There are developers who create protocol driver code, experts who are knowledgeable about a domain, ontologists, application developers, system integrators, OT developers etc.
 
-In a large corporation, these roles might be well organized and fulfilled by different people. However, I was more often than not also part of a team of 2-3 normal software developers that were responsible to go to a customer site, access devices, build up the infrastructure and write the application.
+In a large corporation, these roles might be well organized and fulfilled by different people. However, an equally valid scenario is that a small team of cross-functional developers and integrators are responsible for providing access to devices, building up the infrastructure and write the application to implement a vertical solution. 
 
-Oftentimes we received input from the roles mentioned above and we used Thing Descriptions to formalize the gathered information in a machine-readable format.
+Oftentimes such teams receive input from the roles mentioned above and can use Thing Descriptions to formalize the gathered information in a machine-readable format.
 
-My suggestion is to target this full-stack IoT developer at first, as it feels less overwhelming. I also feel that expanding out to the different roles in a later stage will still be possible. Your comments are welcome.
+We will target this full-stack IoT developer role at first, as it is still possible to expand target scenarios to distinct roles afterwards.
 
 * High Level Workflow
 

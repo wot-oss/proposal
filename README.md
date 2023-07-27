@@ -2,38 +2,39 @@
 
 ## Introduction
 
-The proposal repository first objective is to give a place where community memebers can document their design ideas for WoT projects. 
+The repository first objective is to give a place where community memebers can document their design ideas for WoT projects. 
 The structure of this repository is heavily inspired by the [golang proposal system](https://github.com/golang/proposal).
 
 Each design change must be discussed on a proposal issue. When needed, a document expressing the change motivations is merged inside this repository and refrenced to the issue with a precise [naming schema](#design-documents).
-Users must adhere to the [Code of Conduct](#code-of-conduct) of the community when discussing a proposal. Partecipating to the project evolutions needs to be a pleasant experience for everyone. We pursue a friendly, welcoming environment where everyone can express his ideas, always feeling at home. 
 
-This document will describe the whole proposal workflow, from the opening of a proposal issue, to the acceptance or refusal of design changes through discussion and engagement of the community. 
+Users must adhere to the [code of conduct](#code-of-conduct) of the community when discussing a proposal. Partecipating to the project evolutions needs to be a pleasant experience for everyone. We pursue a friendly, welcoming environment where everyone can express his ideas, always feeling at home. 
+
+This document will describe the whole proposal workflow, from the opening of an issue, to the acceptance or refusal of design changes through discussion and engagement of the community. 
 
 ## What should be considered as a 'Proposal' ?
 
-Everything that is related to a design change of any of the wot-open-source-project repositories can be considered as a proposal to the projects themselves.
+Proposals are essentially design changes of any of the wot-open-source-project repositories.
 
-Bugs, chores and changes related to external components are not considered as proposals. These issues must be tagged accordingly, without the need of a proposal document.
+Bugs, chores and changes related to external components are not considered as such. These issues must be tagged accordingly on their corresponding repositories.
 
-If in doubt, you can always file a proposal.
+If you doubt the issue nature, and you feel it could be considered a design change to one project, you can always file a proposal.
 
 ## The proposal process
 
 Each proposal can be either accepted or declined.
-The process of reviewing proposals relies on the following workflow:
+The process of reviewing them relies on the following workflow:
 
-1. The proposal author *creates an issue* describing the proposal.\
-    The proposal filed at this point **DO NOT** need documentation related to it
+1. The proposal author *creates an issue* describing their proposed design changes.\
+    At this point the issue **DO NOT** need documentation related to it
 
-2. The discussion under the issue **must be managed by the author of the proposal**. The discussion engagemnet will affect the proposal status which in the end can be:
+2. The discussion under the issue **must be managed by its author**. The discussion engagemnet will affect the proposal status which in the end can either be:
      - Accepted
      - Declined
      - In need of a design documentation file
 
-4. if the discussion needs a more detailed description, the author must then provide more insights with the filing of a related [design documentation](#design-documents) in markdown format. The document should adress the concerns arised from the discussion thread on the issue, completing the information available at that moment. 
+3. if the discussion needs a more detailed description, the author must then provide more insights with the filing of a related [design documentation](#design-documents) in markdown format. The document should adress the concerns arised from the discussion thread on the issue, completing the information available at that moment. 
 
-5. After the filing of the document, the discussion will continue under the proposal issue. In the end the proposal will be *accepted* or *declined* accordingly to the outcomes of the discussion itself.
+4. After the filing of the document, the discussion will continue under the proposal issue. In the end the proposal will be *accepted* or *declined* accordingly to the outcomes of the discussion itself.
 
 A proposal can be flagged with other [statuses](#proposal-statuses) described more in depth in the [review workflow](#proposals-review).
 
@@ -42,7 +43,7 @@ implementation work proceeds in the same way as any other contribution.
 
 ## How to write a proposal
 
-Proposal issue titles must follow this schema:
+The issue titles must follow this schema:
 
 ```    
     proposal: <domain>: <title>
@@ -51,7 +52,7 @@ Proposal issue titles must follow this schema:
 The `domain` refers to the project related to the proposal\
 The `title` should be short and focused on the main proposal topic.
 
-Proposal descriptions must be clear and relevant to the core idea expressed in the title.
+Issue descriptions must be clear and relevant to the core idea expressed in the title.
 
 Proposal issues must be accompanied by the '*proposal*' tag, making them easier to track on issue pages
 
@@ -64,11 +65,11 @@ As noted above, when needed proposals can be deeper elaborated in a design docum
 ```
 <project name>-<Issue number>-<short proposal title>
 ```
-- The doc should be inserted into the `design` folder, following the same schema above:
+- The doc should be inserted into the `/design` folder, following the same schema above:
 ```
 <project name>-<issue number>-<short proposal title>.md
 ```
-- if the document has media files, code examples or other files that are part of the documentation, they must be uploaded in a folder inside the `design/` path. The folder has the same name as the documentation file 
+- if the document has media files, code examples or other files that are part of the documentation, they must be uploaded in a folder inside the `/design` path. The folder has the same name as the documentation file 
 
 - The documentation must be written following [this template](./TEMPLATE.md).
 

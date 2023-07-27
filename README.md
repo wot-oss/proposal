@@ -5,8 +5,8 @@
 The proposal repository first objective is to give a place where community memebers can document their design ideas for WoT projects. 
 The structure of this repository is heavily inspired by the [golang proposal system](https://github.com/golang/proposal).
 
-Each design change must be discussed on a proposal issue. When needed, a document expressing the change motivations is merged inside this repository and refrenced to the issue with a precise [naming schema](##Design-Documents).
-Users must adhere to the [Code of Conduct](##Code-of-Conduct) of the community when discussing a proposal. Partecipating to the project evolutions needs to be a pleasant experience for everyone. We pursue a friendly, welcoming environment where everyone can express his ideas, always feeling at home. 
+Each design change must be discussed on a proposal issue. When needed, a document expressing the change motivations is merged inside this repository and refrenced to the issue with a precise [naming schema](#Design-Documents).
+Users must adhere to the [Code of Conduct](#Code-of-Conduct) of the community when discussing a proposal. Partecipating to the project evolutions needs to be a pleasant experience for everyone. We pursue a friendly, welcoming environment where everyone can express his ideas, always feeling at home. 
 
 This document will describe the whole proposal workflow, from the opening of a proposal issue, to the acceptance or refusal of design changes through discussion and engagement of the community. 
 
@@ -23,7 +23,7 @@ If in doubt, you can always file a proposal.
 Each proposal can be either accepted or declined.
 The process of reviewing proposals relies on the following workflow:
 
-1. The proposal author [creates an issue]() describing the proposal.\
+1. The proposal author *creates an issue* describing the proposal.\
     The proposal filed at this point **DO NOT** need documentation related to it
 
 2. The discussion under the issue **must be managed by the author of the proposal**. The discussion engagemnet will affect the proposal status which in the end can be:
@@ -31,11 +31,11 @@ The process of reviewing proposals relies on the following workflow:
      - Declined
      - In need of a design documentation file
 
-4. if the discussion needs a more detailed description, the author must then provide more insights with the filing of a related [design documentation]() in markdown format. The document should adress the concerns arised from the discussion thread on the issue, completing the information available at that moment. 
+4. if the discussion needs a more detailed description, the author must then provide more insights with the filing of a related [design documentation](./TEMPLATE.md) in markdown format. The document should adress the concerns arised from the discussion thread on the issue, completing the information available at that moment. 
 
 5. After the filing of the document, the discussion will continue under the proposal issue. In the end the proposal will be *accepted* or *declined* accordingly to the outcomes of the discussion itself.
 
-A proposal can be flagged with other [statuses](##Proposal-Statuses) described more in depth in the [review workflow]().
+A proposal can be flagged with other [statuses](#Proposal-Statuses) described more in depth in the [review workflow](#proposals-review).
 
 After the proposal is accepted or declined (whether after step 2 or step 4),
 implementation work proceeds in the same way as any other contribution.

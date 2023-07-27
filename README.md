@@ -188,11 +188,21 @@ When discussing and actively partecipating in any form to the project each membe
 
 ----------
 
-- *Be friendly*
-- *Be patient*
-- *Be inclusive*
-- *Be collaborative and critically constructive*
-- *Be Respectful and careful of the words you choose. Any form of discrimination, harrasment, menace or posting of sensitive content are not tolerated.*
-- *Be open, and when others disagree with your opinion, try to understand why*
+```
+- Be friendly
 
+- Be patient
+
+- Be inclusive
+
+- Be collaborative and critically constructive
+
+- Be Respectful and careful of the words you choose.
+  Any form of discrimination, harrasment, menace or posting
+  of sensitive content are not tolerated.
+  
+- Be open, and when others disagree with your opinion, try to
+  understand why
+
+```
 -----------

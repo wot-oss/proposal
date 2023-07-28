@@ -198,9 +198,9 @@ When discussing and actively partecipating in any form to the project each membe
 
 - Be collaborative and critically constructive
 
-- Be Respectful and careful of the words you choose.
+- Be respectful and careful of the words you choose.
   Any form of discrimination, harrasment, menace or posting
-  of sensitive content are not tolerated.
+  of sensitive content is not tolerated.
   
 - Be open, and when others disagree with your opinion, try to
   understand why

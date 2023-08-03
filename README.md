@@ -86,8 +86,8 @@ The user Mario made a proposal and now is asked to upload documentation related 
 ```bash
 /
 └── design/
-    ├── 42069-change-bar-path.md
-    └── 42069-change-bar-path/
+    ├── 42069-foo-change-bar-path.md
+    └── 42069-foo-change-bar-path/
         ├── image-1.png
         ├── image-2.png
         └── code example.go

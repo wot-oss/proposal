@@ -63,11 +63,11 @@ As noted above, when needed proposals can be deeper elaborated in a design docum
 - The design doc should be added to the repository with a pull request to the `main` branch in [this current](https://github.com/web-of-things-open-source/proposal) repository
 - The pull request should come from a branch whose name is composed as:
 ```
-<domain of the issue>-<Issue number>-<short proposal title>
+<Issue number>-<domain of the issue>-<short proposal title>
 ```
 - The doc should be inserted into the `/design` folder, following the same schema above:
 ```
-<domain of the issue>-<issue number>-<short proposal title>.md
+<Issue number>-<domain of the issue>-<short proposal title>.md
 ```
 - if the document has media files, code examples or other files that are part of the documentation, they must be uploaded in a folder inside the `/design` path. The folder has the same name as the documentation file 
 

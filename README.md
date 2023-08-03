@@ -7,7 +7,7 @@ The structure of this repository is heavily inspired by the [golang proposal sys
 
 Each design change must be discussed on a proposal issue. When needed, a document expressing the change motivations is merged inside this repository and refrenced to the issue with a precise [naming schema](#design-documents).
 
-Users must adhere to the [code of conduct](#code-of-conduct) of the community when discussing a proposal. Partecipating to the project evolutions needs to be a pleasant experience for everyone. We pursue a friendly, welcoming environment where everyone can express his ideas, always feeling at home. 
+Users must adhere to the [code of conduct](#code-of-conduct) of the community when discussing a proposal. Partecipating to the project evolutions needs to be a pleasant experience for everyone. We pursue a friendly, welcoming environment where everyone can express their ideas, always feeling at home. 
 
 This document will describe the whole proposal workflow, from the opening of an issue, to the acceptance or refusal of design changes through discussion and engagement of the community. 
 
@@ -63,11 +63,11 @@ As noted above, when needed proposals can be deeper elaborated in a design docum
 - The design doc should be added to the repository with a pull request to the `main` branch in [this current](https://github.com/web-of-things-open-source/proposal) repository
 - The pull request should come from a branch whose name is composed as:
 ```
-<project name>-<Issue number>-<short proposal title>
+<domain of the issue>-<Issue number>-<short proposal title>
 ```
 - The doc should be inserted into the `/design` folder, following the same schema above:
 ```
-<project name>-<issue number>-<short proposal title>.md
+<domain of the issue>-<issue number>-<short proposal title>.md
 ```
 - if the document has media files, code examples or other files that are part of the documentation, they must be uploaded in a folder inside the `/design` path. The folder has the same name as the documentation file 
 
@@ -181,7 +181,7 @@ proposal back to the Active column.
 
 ## Help
 
-If you need help with this process, please contact ...
+If you need help with this process, please contact [@EVO-Antoniazzi](mailto:andrea.antoniazzi@evosoft.com)
 
 ## Code of Conduct
  

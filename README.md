@@ -181,7 +181,7 @@ proposal back to the Active column.
 
 ## Help
 
-If you need help with this process, please contact [@EVO-Antoniazzi](mailto:andrea.antoniazzi@evosoft.com)
+If you need help with this process, please contact [@andrisciu](mailto:git@antoniazzi.dev)
 
 ## Code of Conduct
  

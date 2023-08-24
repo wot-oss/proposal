@@ -1,10 +1,9 @@
 ---
 name: Proposal
-about: 'proposal: [domain]: [short title]'
-title: 'proposal: [domain]: [short title]'
-labels: Incoming, proposal
+about: Propose design changes or new tools
+title: "proposal: [domain]: [short title]"
+labels: Incoming, Proposal
 assignees: ''
-
 ---
 
 [Description]

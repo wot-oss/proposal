@@ -54,7 +54,7 @@ The `title` should be short and focused on the main proposal topic.
 
 Issue descriptions must be clear and relevant to the core idea expressed in the title.
 
-Proposal issues must be accompanied by the '*proposal*' tag, making them easier to track on issue pages
+Proposal issues must be accompanied by the '*proposal*' tag, making them easier to track on issue pages.
 
 ## Design Documents
 

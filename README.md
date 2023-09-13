@@ -32,7 +32,7 @@ The process of reviewing them relies on the following workflow:
      - Declined
      - In need of a design documentation file
 
-3. if the discussion needs a more detailed description, the author must then provide more insights with the filing of a related [design documentation](#design-documents) in markdown format. The document should adress the concerns arised from the discussion thread on the issue, completing the information available at that moment. 
+3. If the discussion needs a more detailed description, the author must then provide more insights with the filing of a related [design documentation](#design-documents) in markdown format. The document should adress the concerns arised from the discussion thread on the issue, completing the information available at that moment. 
 
 4. After the filing of the document, the discussion will continue under the proposal issue. In the end the proposal will be *accepted* or *declined* accordingly to the outcomes of the discussion itself.
 

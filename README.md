@@ -5,7 +5,7 @@
 The repository first objective is to give a place where community members can document their design ideas for WoT projects. 
 The structure of this repository is heavily inspired by the [golang proposal system](https://github.com/golang/proposal).
 
-Each design change must be discussed on a proposal issue. When needed, a document expressing the change motivations is merged inside this repository and refrenced to the issue with a precise [naming schema](#design-documents).
+Each design change must be discussed on a proposal issue. When needed, a document expressing the change motivations is merged inside this repository and referenced to the issue with a precise [naming schema](#design-documents).
 
 Users must adhere to the [code of conduct](#code-of-conduct) of the community when discussing a proposal. Partecipating to the project evolutions needs to be a pleasant experience for everyone. We pursue a friendly, welcoming environment where everyone can express their ideas, always feeling at home. 
 

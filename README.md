@@ -93,8 +93,7 @@ The user Mario made a proposal and now is asked to upload documentation related 
 
 ## Proposals Review
 
-A group of the wot team holds “proposals review meetings”
-periodically. 
+A group of maintainers of this open source project holds “proposals review meetings” periodically. 
 The group will review the proposals and discuss the changes 
 that can be advanced or declined.
 The review is soley based on the engagement and general consensus under each issue discussion.

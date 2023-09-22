@@ -13,9 +13,7 @@ This document will describe the whole proposal workflow, from the opening of an 
 
 ## What should be considered as a 'Proposal' ?
 
-Proposals are essentially design changes of any of the wot-open-source-project repositories.
-
-Bugs, chores and changes related to external components are not considered as such. These issues must be tagged accordingly on their corresponding repositories.
+Proposals are suggestions for new projects to be developed under this open source effort or design changes to any of the wot-open-source-project repositories.
 
 If you doubt the issue nature, and you feel it could be considered a design change to one project, you can always file a proposal.
 

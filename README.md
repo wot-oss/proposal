@@ -103,7 +103,7 @@ From each review meeting the team will change the status of the observed proposa
 Proposal issues are tracked in the
 [Proposals project](https://github.com/orgs/web-of-things-open-source/projects/1/views/1) page where they are sorted by status.
 
-All the review meetings will be documented in form of *minutes* collected inside the [minutes repository](https://github.com/web-of-things-open-source/minutes)
+All the review meetings will documented as separate issues in this repository for reference.
 
 ## Proposal Statuses
 Each proposal can have other statuses other than *accepted* or *declined*, which alone define only the outcome of a proposal. 

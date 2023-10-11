@@ -112,6 +112,7 @@ The proposal statuses are:
 
 - Accepted
 - Declined
+- Draft
 - Incoming
 - Active
 - Likely Accepted

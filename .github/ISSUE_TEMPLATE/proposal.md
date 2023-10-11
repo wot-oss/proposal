@@ -2,7 +2,7 @@
 name: Proposal
 about: Propose design changes or new tools
 title: "proposal: [domain]: [short title]"
-labels: Incoming, Proposal
+labels: Draft, Proposal
 assignees: ''
 ---
 

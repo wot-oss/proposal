@@ -19,7 +19,7 @@ Available Commands:
   search
   pull
   push
-  index
+  create-table
   validate
 
 Flags:
@@ -86,11 +86,11 @@ The user has written some Thing Models for the current project, but they are not
 ** JSON Schema validation passed
 ** JSONLD Syntactic validation passed
 ** 1 Thing Model imported succesfully
-** Index created
+** Table of Content created
 
 > find .
 doe/Siemens/3NACOM_FUSE/smartfuse.jsonld
-catalog.index.1.json
+catalog.toc.json
 ```
 
 To test the catalog locally, the user runs an http-server on the directory:

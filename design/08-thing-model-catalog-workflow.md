@@ -19,7 +19,7 @@ Available Commands:
   search
   pull
   push
-  create-table
+  create-toc
   validate
 
 Flags:

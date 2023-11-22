@@ -16,6 +16,7 @@ Usage:
 Available Commands:
   add-repo
   login
+  list
   search
   pull
   push
@@ -29,7 +30,7 @@ Flags:
 The user wants to find a Thing Model for the Siemens PowerCenter 1000 data transceiver and tries the following:
 
 ```
-> ./tm-catalog-cli search powercenter
+> ./tm-catalog-cli list powercenter
 
 NAME                                 DESCRIPTION                                         STARS    QUALITY
 enrico/pc1000-7KN1110.tm.jsonld      Well tested TM for Siemens PC1000 transceiver       40       Syn/Sem/Run/Man
@@ -40,14 +41,14 @@ thomas/powercenter1000.tm.jsonld     TM for the Siemens PowerCenter1000         
 The user now wants to pick the TM with the most stars and use it:
 
 ```
-> ./tm-catalog-cli pull enrico/pc1000-7KN1110.jsonld
+> ./tm-catalog-cli fetch enrico/pc1000-7KN1110.jsonld
 ** Fetching enrico/pc1000-7KN1110.jsonld successful
 ```
 
 and finds the file in the local directory. The user wants to find a TM for the arc fault detection device (AFDD) connected to the power center communication module, but the official catalog does not have a version available:
 
 ```
-> ./tm-catalog-cli search afdd
+> ./tm-catalog-cli list afdd
 
 NAME                                 DESCRIPTION                                         STARS    QUALITY
 
@@ -63,7 +64,7 @@ The user now searches the catalog of his/her organization, but needs to login be
 Running the search again yields a hit:
 
 ```
-> ./tm-catalog-cli search afdd
+> ./tm-catalog-cli list afdd
 
 NAME                                 DESCRIPTION                                         STARS    QUALITY
 siemens/wot_AFDDEM.jsonld            Official Thing Model for the AFDD module            20       Syn/Sem/Run/-
@@ -72,7 +73,7 @@ siemens/wot_AFDDEM.jsonld            Official Thing Model for the AFDD module   
 The user downloads it and starts using the Thing Model with their own WoT consumer
 
 ```
-> ./tm-catalog-cli pull siemens/wot_AFDDEM.jsonld
+> ./tm-catalog-cli fetch siemens/wot_AFDDEM.jsonld
 ** Fetching siemens/wot_AFDDEM.jsonld successful
 ```
 
@@ -101,7 +102,7 @@ Live server running on localhost port 8080
 
 Searching with the cli works:
 ```
-> tm-catalog-cli search --catalog-url=http://localhost:8080 "smart fuse"
+> tm-catalog-cli list --catalog-url=http://localhost:8080 "smart fuse"
 NAME                                       DESCRIPTION                                         STARS    QUALITY
 Siemens/3NACOM_FUSE/smartfuse.jsonld       WIP Thing Model for Siemens smart fuse              0        Syn/Sem/-/-
 ```
@@ -123,7 +124,7 @@ The user then adds this new repository to the list of registered repositories wi
 
 Running the search again without specifying the catalog URL works:
 ```
-> tm-catalog-cli search "smart fuse"
+> tm-catalog-cli list "smart fuse"
 NAME                                       DESCRIPTION                                         STARS    QUALITY
 Siemens/3NACOM_FUSE/smartfuse.jsonld       WIP Thing Model for Siemens smart fuse              0        Syn/Sem/-/-
 ```
